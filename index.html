@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EuroTrad Focșani - Traduceri Autorizate & Apostilă Vrancea</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; scroll-behavior: smooth; }
+        .hero-pattern { 
+            background-color: #0f172a;
+            background-image: url("https://www.transparenttextures.com/patterns/carbon-fibre.png");
+        }
+        .accent-gradient { background: linear-gradient(135deg, #b45309 0%, #d97706 100%); }
+        .glass-effect { background: rgba(255, 255, 255, 0.03); backdrop-filter: blur(10px); }
+        .card-shadow { box-shadow: 0 10px 30px -10px rgba(0,0,0,0.1); }
+    </style>
+</head>
+<body class="bg-white text-slate-900">
+
+    <!-- Navigație Premium -->
+    <nav class="bg-white/90 backdrop-blur-md sticky top-0 z-50 border-b border-slate-100">
+        <div class="container mx-auto px-4 lg:px-8 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="bg-blue-900 p-2 rounded-lg">
+                    <i class="fas fa-landmark text-white text-xl"></i>
+                </div>
+                <div class="flex flex-col">
+                    <span class="text-xl font-extrabold tracking-tight text-blue-900 leading-none">EUROTRAD</span>
+                    <span class="text-[10px] font-bold text-amber-600 uppercase tracking-[0.2em]">Focșani • Vrancea</span>
+                </div>
+            </div>
+            <div class="hidden lg:flex items-center space-x-10 font-semibold text-sm uppercase tracking-wide">
+                <a href="#servicii" class="hover:text-amber-600 transition-colors">Servicii</a>
+                <a href="#limbi" class="hover:text-amber-600 transition-colors">Limbi</a>
+                <a href="#apostila" class="hover:text-amber-600 transition-colors">Apostilă</a>
+                <a href="#contact" class="bg-blue-900 text-white px-6 py-2.5 rounded-full hover:bg-blue-800 transition-all shadow-lg shadow-blue-900/20">Solicită Cotație</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section cu tematică Locală -->
+    <header class="hero-pattern text-white py-20 lg:py-32 px-6 relative overflow-hidden">
+        <div class="absolute top-0 right-0 w-1/3 h-full bg-blue-600/10 skew-x-12 transform translate-x-1/2"></div>
+        <div class="container mx-auto relative z-10">
+            <div class="flex flex-col lg:flex-row items-center gap-16">
+                <div class="lg:w-3/5">
+                    <div class="inline-flex items-center space-x-2 bg-white/10 border border-white/20 px-3 py-1 rounded-full mb-6">
+                        <span class="relative flex h-2 w-2">
+                            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+                            <span class="relative inline-flex rounded-full h-2 w-2 bg-amber-500"></span>
+                        </span>
+                        <span class="text-xs font-bold uppercase tracking-widest text-blue-200">Disponibil acum în Focșani</span>
+                    </div>
+                    <h1 class="text-5xl lg:text-7xl font-extrabold mb-6 leading-[1.1]">
+                        Traduceri care <span class="text-amber-500">deschid uși</span> în toată lumea.
+                    </h1>
+                    <p class="text-xl text-slate-300 mb-10 max-w-2xl leading-relaxed">
+                        Suntem biroul de traduceri autorizate din Focșani ales de mii de vrânceni. Oferim servicii complete de legalizare și apostilă pentru ca documentele tale să fie recunoscute instantaneu oriunde pe glob.
+                    </p>
+                    <div class="flex flex-wrap gap-5">
+                        <a href="https://wa.me/40700000000" class="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-2xl font-bold transition-all flex items-center shadow-xl shadow-green-900/20">
+                            <i class="fab fa-whatsapp text-xl mr-3"></i> WhatsApp Rapid
+                        </a>
+                        <a href="#contact" class="bg-white text-blue-900 hover:bg-blue-50 px-8 py-4 rounded-2xl font-bold transition-all flex items-center shadow-xl">
+                            <i class="fas fa-map-marker-alt mr-3 text-amber-600"></i> Vezi Locația
+                        </a>
+                    </div>
+                </div>
+                <div class="lg:w-2/5 relative">
+                    <div class="relative z-10 rounded-[2rem] overflow-hidden border-8 border-white/5 shadow-2xl">
+                        <!-- Imagine reprezentativă pentru documente oficiale românești -->
+                        <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80&w=1000" 
+                             alt="Statue of Justice and legal documents" 
+                             class="w-full h-[500px] object-cover">
+                    </div>
+                    <!-- Element plutitor -->
+                    <div class="absolute -bottom-6 -left-6 glass-effect p-6 rounded-2xl border border-white/10 z-20 hidden md:block">
+                        <div class="flex items-center space-x-4">
+                            <div class="text-4xl text-amber-500 font-black">15+</div>
+                            <div class="text-xs uppercase font-bold tracking-tighter text-blue-200">Ani de expertiză<br>în județul Vrancea</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Statistica Quick Info -->
+    <div class="container mx-auto px-6 -mt-10 relative z-30">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-1 bg-white rounded-3xl overflow-hidden shadow-2xl border border-slate-100">
+            <div class="p-8 flex items-center space-x-5 hover:bg-slate-50 transition">
+                <i class="fas fa-bolt text-amber-600 text-3xl"></i>
+                <div>
+                    <h5 class="font-bold text-slate-900">Urgențe 24h</h5>
+                    <p class="text-sm text-slate-500">Traduceri gata în aceeași zi.</p>
+                </div>
+            </div>
+            <div class="p-8 flex items-center space-x-5 hover:bg-slate-50 transition border-x border-slate-100">
+                <i class="fas fa-stamp text-blue-900 text-3xl"></i>
+                <div>
+                    <h5 class="font-bold text-slate-900">Legalizare Inclusă</h5>
+                    <p class="text-sm text-slate-500">Colaborăm cu notari din Focșani.</p>
+                </div>
+            </div>
+            <div class="p-8 flex items-center space-x-5 hover:bg-slate-50 transition">
+                <i class="fas fa-globe-europe text-blue-600 text-3xl"></i>
+                <div>
+                    <h5 class="font-bold text-slate-900">Peste 30 Limbi</h5>
+                    <p class="text-sm text-slate-500">Acoperire globală completă.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Secțiune Servicii -->
+    <section id="servicii" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-3xl mb-20">
+                <h2 class="text-4xl font-extrabold text-blue-900 mb-6">Expertiză în traduceri pentru Focșani</h2>
+                <p class="text-lg text-slate-600 leading-relaxed">De la acte auto aduse din Germania la contracte internaționale pentru exportatorii din Vrancea, echipa noastră asigură acuratețea fiecărui cuvânt.</p>
+            </div>
+
+            <div class="grid lg:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="group p-10 rounded-[2.5rem] bg-slate-50 border border-slate-100 hover:bg-blue-900 transition-all duration-500 card-shadow">
+                    <div class="w-14 h-14 bg-blue-900 group-hover:bg-amber-500 rounded-2xl flex items-center justify-center mb-8 transition-colors">
+                        <i class="fas fa-file-signature text-white text-xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 group-hover:text-white transition-colors">Traduceri Autorizate</h3>
+                    <p class="text-slate-600 group-hover:text-blue-100 mb-8 leading-relaxed transition-colors">Semnate și ștampilate de traducători autorizați de Ministerul Justiției. Valabile pentru orice instituție publică din România sau străinătate.</p>
+                    <a href="#contact" class="text-blue-900 group-hover:text-amber-400 font-bold inline-flex items-center transition-colors">
+                        Cere detalii <i class="fas fa-arrow-right ml-2 text-xs"></i>
+                    </a>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="group p-10 rounded-[2.5rem] bg-slate-50 border border-slate-100 hover:bg-blue-900 transition-all duration-500 card-shadow">
+                    <div class="w-14 h-14 bg-blue-900 group-hover:bg-amber-500 rounded-2xl flex items-center justify-center mb-8 transition-colors">
+                        <i class="fas fa-balance-scale text-white text-xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 group-hover:text-white transition-colors">Legalizări & Vizări</h3>
+                    <p class="text-slate-600 group-hover:text-blue-100 mb-8 leading-relaxed transition-colors">Ne ocupăm noi de drumurile la Notar, Camera Notarilor sau Tribunalul Vrancea. Tu doar aduci documentul și îl ridici gata de folosire.</p>
+                    <a href="#contact" class="text-blue-900 group-hover:text-amber-400 font-bold inline-flex items-center transition-colors">
+                        Cere detalii <i class="fas fa-arrow-right ml-2 text-xs"></i>
+                    </a>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="group p-10 rounded-[2.5rem] bg-slate-50 border border-slate-100 hover:bg-blue-900 transition-all duration-500 card-shadow">
+                    <div class="w-14 h-14 bg-blue-900 group-hover:bg-amber-500 rounded-2xl flex items-center justify-center mb-8 transition-colors">
+                        <i class="fas fa-ribbon text-white text-xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-4 group-hover:text-white transition-colors">Servicii Apostilă</h3>
+                    <p class="text-slate-600 group-hover:text-blue-100 mb-8 leading-relaxed transition-colors">Consultanță pentru obținerea apostilei la Prefectura Vrancea. Traducem documentul apostilat pentru recunoaștere internațională.</p>
+                    <a href="#contact" class="text-blue-900 group-hover:text-amber-400 font-bold inline-flex items-center transition-colors">
+                        Cere detalii <i class="fas fa-arrow-right ml-2 text-xs"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secțiune Limbi cu Design Curat -->
+    <section id="limbi" class="py-24 bg-slate-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-20">
+                <span class="text-amber-600 font-extrabold uppercase tracking-[0.3em] text-xs">Portofoliu Lingvistic</span>
+                <h2 class="text-4xl font-extrabold text-blue-900 mt-4">Din Focșani în orice colț al lumii</h2>
+            </div>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+                <div class="bg-white p-8 rounded-3xl shadow-sm hover:shadow-xl transition-all border border-slate-100 flex flex-col items-center">
+                    <img src="https://flagcdn.com/w80/gb.png" class="w-12 h-12 rounded-full object-cover mb-4" alt="UK Flag">
+                    <span class="font-bold">Engleză</span>
+                </div>
+                <div class="bg-white p-8 rounded-3xl shadow-sm hover:shadow-xl transition-all border border-slate-100 flex flex-col items-center">
+                    <img src="https://flagcdn.com/w80/it.png" class="w-12 h-12 rounded-full object-cover mb-4" alt="Italy Flag">
+                    <span class="font-bold">Italiană</span>
+                </div>
+                <div class="bg-white p-8 rounded-3xl shadow-sm hover:shadow-xl transition-all border border-slate-100 flex flex-col items-center">
+                    <img src="https://flagcdn.com/w80/es.png" class="w-12 h-12 rounded-full object-cover mb-4" alt="Spain Flag">
+                    <span class="font-bold">Spaniolă</span>
+                </div>
+                <div class="bg-white p-8 rounded-3xl shadow-sm hover:shadow-xl transition-all border border-slate-100 flex flex-col items-center">
+                    <img src="https://flagcdn.com/w80/de.png" class="w-12 h-12 rounded-full object-cover mb-4" alt="Germany Flag">
+                    <span class="font-bold">Germană</span>
+                </div>
+                <div class="bg-white p-8 rounded-3xl shadow-sm hover:shadow-xl transition-all border border-slate-100 flex flex-col items-center">
+                    <img src="https://flagcdn.com/w80/fr.png" class="w-12 h-12 rounded-full object-cover mb-4" alt="France Flag">
+                    <span class="font-bold">Franceză</span>
+                </div>
+                <div class="bg-white p-8 rounded-3xl shadow-sm hover:shadow-xl transition-all border border-slate-100 flex flex-col items-center">
+                    <div class="w-12 h-12 bg-slate-100 rounded-full flex items-center justify-center mb-4">
+                        <i class="fas fa-plus text-slate-400"></i>
+                    </div>
+                    <span class="font-bold">Alte 25+</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Secțiune Apostilă Focusată pe Local -->
+    <section id="apostila" class="py-24 bg-white overflow-hidden">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col lg:flex-row items-center gap-20">
+                <div class="lg:w-1/2 relative">
+                    <div class="absolute -top-10 -left-10 w-40 h-40 bg-amber-500/10 rounded-full blur-3xl"></div>
+                    <h2 class="text-4xl font-extrabold text-blue-900 mb-8 leading-tight">Servicii de Apostilă la nivel județean (Vrancea)</h2>
+                    <p class="text-lg text-slate-600 mb-10 leading-relaxed">
+                        Procedura de apostilare necesită drumuri între instituții din Focșani (Prefectură, Tribunal, Camera Notarilor). Noi cunoaștem fluxul de lucru și termenele de eliberare pentru a-ți economisi timpul.
+                    </p>
+                    
+                    <ul class="space-y-6">
+                        <li class="flex items-start">
+                            <div class="bg-blue-100 p-2 rounded-lg mr-4 text-blue-900"><i class="fas fa-check"></i></div>
+                            <div>
+                                <span class="font-bold block">Acte de Stare Civilă</span>
+                                <p class="text-sm text-slate-500">Certificate de naștere/căsătorie vizate la Prefectura Vrancea.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="bg-blue-100 p-2 rounded-lg mr-4 text-blue-900"><i class="fas fa-check"></i></div>
+                            <div>
+                                <span class="font-bold block">Acte Juridice</span>
+                                <p class="text-sm text-slate-500">Sentințe de divorț sau procuri apostilate la Tribunalul Vrancea.</p>
+                            </div>
+                        </li>
+                        <li class="flex items-start">
+                            <div class="bg-blue-100 p-2 rounded-lg mr-4 text-blue-900"><i class="fas fa-check"></i></div>
+                            <div>
+                                <span class="font-bold block">Traduceri Apostilate</span>
+                                <p class="text-sm text-slate-500">Apostilarea semnăturii notarului la Camera Notarilor Publici Galați (cu punct de lucru Focșani).</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="lg:w-1/2">
+                    <div class="grid grid-cols-2 gap-4">
+                        <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&q=80&w=600" alt="Consultancy" class="rounded-3xl shadow-lg mt-12">
+                        <img src="https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&q=80&w=600" alt="Official paper" class="rounded-3xl shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact & Map -->
+    <section id="contact" class="py-24 bg-slate-900 text-white relative">
+        <div class="container mx-auto px-6 relative z-10">
+            <div class="flex flex-col lg:flex-row gap-16">
+                <div class="lg:w-1/2">
+                    <h2 class="text-4xl font-extrabold mb-8">Ești din Focșani? Vizitează-ne!</h2>
+                    <p class="text-slate-400 text-lg mb-12">Sediul nostru este situat central, fiind ușor accesibil pentru toți locuitorii orașului și ai localităților limitrofe.</p>
+                    
+                    <div class="grid sm:grid-cols-2 gap-8 mb-12">
+                        <div>
+                            <h5 class="text-amber-500 font-bold uppercase text-xs mb-4">Adresa noastră</h5>
+                            <p class="text-slate-200">Bulevardul Unirii (Zona Centrală)<br>Focșani, Vrancea</p>
+                        </div>
+                        <div>
+                            <h5 class="text-amber-500 font-bold uppercase text-xs mb-4">Program de lucru</h5>
+                            <p class="text-slate-200">Luni - Vineri: 09:00 - 17:00<br>Sâmbătă: Cu programare</p>
+                        </div>
+                    </div>
+
+                    <div class="bg-white/5 border border-white/10 p-8 rounded-3xl">
+                        <p class="italic text-slate-300">"Am apelat pentru traducerea unor acte de studii necesare în Italia. Totul a fost gata în 24h, inclusiv apostila. Recomand cu încredere!"</p>
+                        <p class="mt-4 font-bold text-amber-500">— Marian D., Focșani</p>
+                    </div>
+                </div>
+
+                <div class="lg:w-1/2">
+                    <div class="bg-white rounded-[2.5rem] p-10 text-slate-900 shadow-2xl">
+                        <h3 class="text-2xl font-bold mb-8">Trimite un mesaj rapid</h3>
+                        <form class="space-y-6">
+                            <div>
+                                <input type="text" placeholder="Numele tău" class="w-full px-6 py-4 rounded-2xl bg-slate-50 border-none focus:ring-2 focus:ring-blue-900 transition outline-none">
+                            </div>
+                            <div>
+                                <input type="tel" placeholder="Telefon (pentru WhatsApp)" class="w-full px-6 py-4 rounded-2xl bg-slate-50 border-none focus:ring-2 focus:ring-blue-900 transition outline-none">
+                            </div>
+                            <div>
+                                <textarea rows="4" placeholder="Ce dorești să traduci?" class="w-full px-6 py-4 rounded-2xl bg-slate-50 border-none focus:ring-2 focus:ring-blue-900 transition outline-none"></textarea>
+                            </div>
+                            <button class="w-full accent-gradient text-white font-extrabold py-5 rounded-2xl shadow-xl hover:scale-[1.02] transition-all uppercase tracking-widest text-sm">
+                                Trimite cererea acum
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer de tip Local -->
+    <footer class="bg-black text-slate-500 py-12 px-6">
+        <div class="container mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-8">
+                <div class="flex items-center space-x-3">
+                    <div class="bg-slate-800 p-2 rounded-lg">
+                        <i class="fas fa-landmark text-white text-lg"></i>
+                    </div>
+                    <span class="text-white font-bold tracking-tight">EUROTRAD FOCȘANI</span>
+                </div>
+                <div class="flex space-x-8 text-xs font-bold uppercase tracking-widest">
+                    <a href="#" class="hover:text-white transition">Prima Pagină</a>
+                    <a href="#servicii" class="hover:text-white transition">Servicii</a>
+                    <a href="#contact" class="hover:text-white transition">Contact</a>
+                </div>
+                <p class="text-[10px] text-center md:text-right uppercase tracking-[0.2em]">
+                    &copy; 2024 Birou Traduceri Autorizate Vrancea.<br>Servicii de încredere pentru comunitatea noastră.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
